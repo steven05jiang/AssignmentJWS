@@ -12,7 +12,7 @@
 	
 <!-- 	Test For Create -->
 	
-<!-- 		<script>
+<!--  		<script>
 		$(function() {
 			var site = {
 				id : 3,
@@ -22,8 +22,8 @@
 			};
 
 			$.ajax({
-				url : "/AssignmentJWS/api/site/3",
-				type : "put",
+				url : "/AssignmentJWS/api/site",
+				type : "post",
 				dataType : "json",
 				contentType : "application/json; charset=utf-8",
 				data : JSON.stringify(site),
